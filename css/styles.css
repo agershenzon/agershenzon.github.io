@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/chicago.jpg");
+    background-color: white;
 }
 h1 {
   text-align: center;
@@ -53,10 +53,10 @@ h1 {
 .thumbnail {
   text-align: center;
 }
-id.cookie {
-  padding-top: 50px;
+p.text {
+  font-size: 45px;
 }
-.hobbies {
-  float: right;
-  border: 2px;
+.container {
+  padding-top: 20px;
+  
 }
