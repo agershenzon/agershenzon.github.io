@@ -15,15 +15,48 @@ h1 {
   font-size: 20px;
 }
 
-@media screen and (max width: 768px) {
-  body {
-    background: #FF6347;
-    color: #FFF
-  }
-}
+
 .columns {
   padding-top: 30px;
   width: 300px;
   float: left;
+}
+.layout {
+  padding-top: 10px;
+  float: left;
+}
+.bio {
 
+}
+@media screen and (max-width: 700px) {
+  body {
+    background: black;
+    color: #FFF;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    background: blue;
+    color: white;
+  }
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+.box {
+  padding-top: 50px;
+}
+.row {
+  padding-top: 20px;
+}
+.thumbnail {
+  text-align: center;
+}
+id.cookie {
+  padding-top: 50px;
+}
+.hobbies {
+  float: right;
+  border: 2px;
 }
