@@ -1,0 +1,29 @@
+body {
+    background-image: url("img/chicago.jpg");
+}
+h1 {
+  text-align: center;
+}
+.header {
+  text-align: center;
+  padding-top: 50px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.nav-tabs {
+  font-size: 20px;
+}
+
+@media screen and (max width: 768px) {
+  body {
+    background: #FF6347;
+    color: #FFF
+  }
+}
+.columns {
+  padding-top: 30px;
+  width: 300px;
+  float: left;
+
+}
